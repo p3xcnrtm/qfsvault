@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LOBSTR Vault - Multi-signature security on the Stellar network</title>
+<meta name="description" content="Multi-signature security on the Stellar network. LOBSTR Vault is the transaction signer app for your mobile device with local key storage.">
+<meta name="author" content="LOBSTR">
+<link rel="shortcut icon" href="https://vault.lobstr.co/static/images/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="https://vault.lobstr.co/static/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" integrity="sha256-P4ssN5lV8wL4+fNMTHXyC8kXdmWnDtti4qpuSzaldQQ=" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://vault.lobstr.co/static/css/style_new.css">
+</head>
+<body>
+<div class="wrapper">
+<nav id="navigation">
+<div class="nav-logo">
+<a href="index.html">
+<img src="https://vault.lobstr.co/static/images/svg/logo.png" alt="logo" class="logo">
+<img src="https://vault.lobstr.co/static/images/svg/logo-white.svg" alt="logo-white" class="logo-white hidden-lg">
+</a>
+<button id="nav-button" class="nav-button hidden-lg" onclick="collapseNav()">
+<img src="https://vault.lobstr.co/static/images/svg/menu.svg" alt="menu" class="icon-menu">
+<img src="https://vault.lobstr.co/static/images/svg/cross.svg" alt="cross" class="icon-cross">
+</button>
+</div>
+<div class="nav-links hidden-sm">
+<a href="index.html#benefits" class="nav_link">Features</a>
+<a href="index.html#security" class="nav_link">Security</a>
+<a href="https://vault.lobstr.co/card" class="nav_link">Signer Card</a>
+<a href="index.html#support" class="nav_link">Support</a>
+<a href="index.html#help_center" class="nav_link">Help Center</a>
+</div>
+<div class="nav-footer hidden-lg hidden-sm">
+<div class="content-footer">
+<a href="../privacy/index.html" target="_blank" class="footer-link">Privacy Policy</a>
+<span>•</span>
+<a href="../terms/index.html" target="_blank" class="footer-link">Terms of Use</a>
+</div>
+</div>
+</nav>
+<div id="about" class="content about-content">
+<div class="content-cell main-Onload from-left">
+<p class="main-title">Multiply your security</p>
+<p class="about-title-desc">Multi-signature security on the Stellar network</p>
+<div class="download-btns">
+<a href="https://play.google.com/store/apps/details?id=com.lobstr.stellar.vault" target="_blank">
+<div alt="googlePlay" class="gplay-img"></div>
+</a>
+<a href="https://itunes.apple.com/by/app/lobstr-vault/id1452248529?mt=8" target="_blank">
+<div alt="AppStore" class="istore-img"></div>
+</a>
+</div>
+</div>
+<div class="content-cell main-Onload from-right">
+<div class="circle-container">
+<div id="base-circle"></div>
+<div id="second-circle"></div>
+<div id="orange-circle"></div>
+<div id="purple-circle"></div>
+<div id="purple-gradient-circle"></div>
+</div>
+<div><img srcset="https://vault.lobstr.co/static/images/png/phones.png, https://vault.lobstr.co/static/images/png/phones%402x.png 2x, https://vault.lobstr.co/static/images/png/phones%403x.png 3x" alt="logo"></div>
+</div>
+</div>
+<div id="benefits" class="benefits content content-reverse">
+<div class="content-cell from-left"><img src="https://vault.lobstr.co/static/images/svg/pic-1.svg" alt="Verify"></div>
+<div class="content-cell from-right">
+<p class="about-title">Verify transactions</p>
+<p class="about-title-desc">
+LOBSTR Vault uses multisignature technology to maximize security of your digital assets issued on the Stellar network.
+</p>
+<p class="about-title-desc">
+Each transaction requires several approvals with Vault on multiple devices, using keys that are stored locally on device.
+</p>
+</div>
+</div>
+<div class="content">
+<div class="content-cell from-left">
+<p class="about-title">Signature requests and notifications</p>
+<p class="about-title-desc">
+Once a wallet is protected with LOBSTR Vault all pending transactions are automatically sent to a signer device in a matter of seconds.
+</p>
+<p class="about-title-desc">
+Swipe notification and verify transaction details.<br />
+Looks good? Just click to sign.
+</p>
+</div>
+<div class="content-cell from-right"><img src="https://vault.lobstr.co/static/images/svg/pic-2.svg" alt="iStore"></div>
+</div>
+<div class="content content-reverse">
+<div class="content-cell from-left"><img src="https://vault.lobstr.co/static/images/svg/pic-3.svg" alt="iStore"></div>
+<div class="content-cell from-right">
+<p class="about-title">Control your security level</p>
+<p class="about-title-desc">
+Multi-signature, multi-account, multi-device. <br />
+All possible with LOBSTR Vault.
+</p>
+<p class="about-title-desc">
+With Vault you can protect several accounts from a single device. Or single account from multiple devices.<br />
+Require additional approval from a separate device. Or 3 approvals from 5 different devices. Up to you.
+</p>
+</div>
+</div>
+</div>
+<section id="security" class="security-main">
+<div class="wrapper">
+<div class="content">
+<div class="content-cell from-left description">
+<p class="about-title">Control your funds with your own keys</p>
+<p class="about-title-desc">
+No matter what wallet you are using to hold your funds, a single secret key means a single point of failure. <br />
+If your secret key or recovery seed gets exposed, your funds are gone forever.
+</p>
+<p class="about-title-desc">
+<strong>Reduce the risks with multisignature.</strong><br />
+Attacker trying to steal your crypto would need to gain access to <strong>multiple secret keys, stored on multiple devices.</strong>
+</p>
+<p class="about-title-desc">
+Keys that are used to approve transactions with Vault are generated
+and stored locally on your device and never leave it.
+</p>
+<p class="about-title-desc">
+<a class="source-code-link" href="https://github.com/lobstrco" target="_blank">
+<span>Look at source code</span>
+<img src="https://vault.lobstr.co/static/images/svg/arrow-copy-4.svg" alt="">
+ </a>
+</p>
+</div>
+<div class="content-cell from-right illustration"><img src="https://vault.lobstr.co/static/images/svg/pic-4.svg" alt="secure-guard"></div>
+</div>
+</div>
+</section>
+<section class="security-desc">
+<div class="wrapper">
+<div class="content centered">
+<div class="content-cell-solo from-left">
+<p class="about-title">Keys are safe with Vault</p>
+<p class="about-title-desc">Your signer key is safe even if your phone is lost or stolen</p>
+<div class="security-types">
+<div class="security-item">
+<img src="https://vault.lobstr.co/static/images/svg/ico-1.svg" alt="6pin">
+<p>A custom 6-digit PIN</p>
+</div>
+<div class="security-item">
+<img src="https://vault.lobstr.co/static/images/svg/ico-2.svg" alt="biometric">
+<p>Biometric authentication</p>
+</div>
+<div class="security-item">
+<img src="https://vault.lobstr.co/static/images/svg/ico-3.svg" alt="phrase">
+<p>Mnemonic recovery phrase</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="support" id="support">
+<div class="wrapper">
+<div class="content">
+<div class="content-cell from-left text">
+<p class="about-title">Works with your favorite wallet</p>
+<p class="about-title-desc">
+LOBSTR Vault helps you secure your existing Stellar accounts.
+You can continue using your favorite wallets / exchanges / other services, and not worry about losing your money.
+</p>
+<p class="about-title-desc best-matches hidden-sm">Supported by:</p>
+</div>
+<div class="content-cell from-right wallets-block-wrapper">
+<div class="wallets-block">
+<a href="../index.html" target="_blank" class="wallet-item"><img src="https://vault.lobstr.co/static/images/svg/lobstr.svg" alt="lobstr"></a>
+<a href="https://stellarport.io/" target="_blank" class="wallet-item"><img src="https://vault.lobstr.co/static/images/svg/stellarport.svg" alt="stellarport"></a>
+<a href="../stellarterm/index.html" target="_blank" class="wallet-item"><img src="https://vault.lobstr.co/static/images/svg/stellarterm.svg" alt="stellarterm"></a>
+<a href="https://stellarx.com/" target="_blank" class="wallet-item"><img src="https://vault.lobstr.co/static/images/svg/stellarx.svg" alt="stellarx"></a>
+</div>
+</div>
+<div class="content-cell from-right apps"><img src="https://vault.lobstr.co/static/images/svg/group-3.png" alt="apps" class="all-wallets"></div>
+</div>
+<div class="content centered">
+<div class="content-cell-solo from-right">
+<p class="about-title">Good fit for every need</p>
+</div>
+</div>
+</div>
+</section>
+<section class="cards-container wrapper">
+<div class="content">
+<div class="content-cell-solo from-left">
+<div class="use-for-block">
+<div class="card-cell">
+<div class="card-container">
+<img src="https://vault.lobstr.co/static/images/svg/personal-ico.svg" alt="personal" class="card-img">
+<p class="card-title">Personal or shared use</p>
+<p class="card-desc">Distribute control over funds over multiple devices you own, or between a group of people</p>
+<div class="application-links links">
+<a href="https://play.google.com/store/apps/details?id=com.lobstr.stellar.vault" target="_blank">
+<img src="https://vault.lobstr.co/static/images/svg/android.svg" alt=""><span>Android</span>
+</a>
+<a href="https://itunes.apple.com/by/app/lobstr-vault/id1452248529?mt=8" target="_blank">
+<img src="https://vault.lobstr.co/static/images/svg/ios.svg" alt=""><span>iOS</span>
+</a>
+</div>
+</div>
+</div>
+<div class="card-cell">
+<div class="card-container">
+<img src="https://vault.lobstr.co/static/images/svg/developers.svg" alt="developers" class="card-img">
+<p class="card-title">Secure your product</p>
+<p class="card-desc">Integrate LOBSTR Vault with your service using Stellar and give users the confidence they deserve</p>
+<a href="https://github.com/Lobstrco/Vault-Android#developers-integrate-lobstr-vault-with-your-service" target="_blank">
+<span>Read the docs</span> <img src="https://vault.lobstr.co/static/images/svg/arrow.svg" alt="">
+</a>
+</div>
+</div>
+<div class="card-cell card-reversed">
+<div class="card-container">
+<img src="https://vault.lobstr.co/static/images/svg/business-ico.svg" alt="business" class="card-img">
+<p class="card-title">Business solutions</p>
+<p class="card-desc">We can customize LOBSTR Vault to fit the needs of your company and secure the holdings</p>
+<a href="../partners/index.html" target="_blank">
+<span>Contact us</span> <img src="https://vault.lobstr.co/static/images/svg/arrow-copy-4.svg" alt="">
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer id="help_center">
+<div class="wrapper">
+<div class="content centered">
+<div class="content-cell-solo from-right">
+<p class="about-title">Have any questions?</p>
+<p class="about-title-desc">
+Visit our Help Center and read through the FAQ or reach out to our support team if you need any help.
+</p>
+<div class="help-buttons">
+<a href="../support/index.html" target="_blank">
+<div class="help-button btn-support">Support</div>
+</a>
+<a href="https://vault.lobstr.co/help-center/" target="_blank">
+<div class="help-button btn-help-center">Help Center</div>
+</a>
+</div>
+<div class="copyright">
+<div class="content-footer"><span>Copyright © 2023 Ultra Stellar, LLC.</span></div>
+<div class="content-footer">
+<a href="../privacy/index.html" target="_blank" class="footer-link">Privacy Policy</a>
+<a href="../terms/index.html" target="_blank" class="footer-link">Terms of Use</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://vault.lobstr.co/static/scripts/init.js"></script>
+</body>
+</html>
