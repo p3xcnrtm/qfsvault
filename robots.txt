@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /trade
+Sitemap: https://lobstr.co/sitemap.xml
