@@ -8,6 +8,16 @@
 	<meta name="theme-color" content="#1b8da0">
 	<title>
 		Send | The QFSLedger	</title>
+<script>
+        function showPopupAndRefresh() {
+            // Display a confirmation popup
+		
+            alert('Your action has been confirmed!');
+
+            // Refresh the page after the popup is closed
+            location.reload();
+        }
+    </script>
 	<meta name="description" content="qfsledgersvault">
 	<meta name="keywords" content="Qfsledgersvault"/>
 	<link rel="icon" type="image/png" href="upload/963logo (2).png" sizes="32x32">
@@ -127,8 +137,9 @@
 							</div>
 							<div class="form-group basic">
 								<div class="input-wrapper">
-									<button type="reset" class="btn btn-danger">Reset</button>
-									<input type="submit" name="send" value="Proceed" class="btn btn-success">
+									 <button type="reset" class="btn btn-danger">Reset</button>
+    <input type="submit" name="send" value="Proceed" class="btn btn-success" onclick="showPopupAndRefresh()">
+
 								</div>
 							</div>
 						</form>
